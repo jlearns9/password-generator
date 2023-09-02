@@ -1,0 +1,88 @@
+body {
+    background: #1C1C1C;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 40px;
+    width: 354px;
+
+}
+
+h2 {
+    color: #D5D4D8;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button {
+    background: #10B981;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 9px 17px 9px 15px;
+    
+}
+
+.checkBox {
+    color: yellow;
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.foreground {
+    background: #1F2937;
+    border: 5px solid white;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #4ADF86;
+    color: #FFF;
+    font-family: 'Karla', sans-serif;
+    height: 500px;
+    margin: 54px auto;
+    padding: 115px 52px;
+    width: 550px;
+}
+
+.greenText {
+    color: #4ADF86;
+}
+
+.passFieldStyle {
+    border: none;
+    border-radius: 6px;
+    background: #273549;
+    color: #55F991;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    height: 39px;
+    line-height: 32px;
+    margin: 0 10px;
+    text-align: center;
+    width: 211px;
+}
+
+#errorMessage {
+    color: red;
+    height: 10px;
+    border-top: 2px solid #2F3E53;
+    margin: 0;
+}
+
+#passLengthField {
+    align-items: center;
+    display: flex;
+}
+
+#passLengthField p {
+    margin-right: 10px;
+}

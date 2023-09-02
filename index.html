@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="foreground">
+            <h1>Generate a <span class="greenText">random password</span></h1>
+            <h2>Never use an insecure password again.</h2>
+            <button onclick="generatePassword()">Generate Passwords</button>
+            <br>
+            <br>
+            <div id="passLengthField">
+                <p>Password Length:</p>
+                <input id="passwordLength" type="number" min="6" max="21">
+            </div>
+            <div class="checkBox">
+                <P>Has Symbols?</P>
+                <input id="checkSymbols" type="checkbox">
+            </div>
+            <div class="checkbox">
+                <P>Has Numbers?</P>
+                <input id="checkNumbers" type="checkbox">
+            </div>
+            <p id="errorMessage"></p>
+            <br>
+            <input class="passFieldStyle" id="passFieldOne" onclick="passCopy(event)" readonly>
+            <input class="passFieldStyle" id="passFieldTwo" onclick="passCopy(event)" readonly>
+            <p id="passCopyText">Click to copy password</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
